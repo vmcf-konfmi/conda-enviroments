@@ -1,0 +1,25 @@
+name: v4d_cellpose
+dependencies:
+  - python==3.8.5
+  - pip
+  - pywin32
+  - cudatoolkit=10.2
+  - pytorch::pytorch
+  - pip:
+    - PyQt5
+    - PyQt5.sip
+    - numpy==1.21.0
+    - numba>=0.43.1
+    - scipy
+    - opencv-python-headless
+    - pyqtgraph>=0.11.0rc0
+    - natsort
+    - google-cloud-storage
+    - tqdm
+    - tifffile
+    - matplotlib
+    - scikit-image
+    - scikit-learn
+    - cellpose
+    
+  
